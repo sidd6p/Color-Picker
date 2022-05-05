@@ -5,44 +5,43 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <form id="form-main">
-            <input type="color" id="ipt-color">
-            <select id="ipt-mode" name="mode">
-                <option value=1 selected>Monochrome</option>
-                <option value=2 > Monochrome-Dark </option> 
-                <option value=3 > Monochrome-Light </option> 
-                <option value=4 > Analogic </option> 
-                <option value=4 > Complement </option> 
-                <option value=5 > Analogic-Complement </option> 
-                <option value=6 > Triad </option> 
-                <option value=6 > Quad </option>
-            </select>
-            <input type="submit" id="btn-submit" value="Get Color Scheme">
-        </form>
-        <div id="color-space">
-            <div id="space-1">
-                <div id="color-1"></div>
+        <div id="main">
+            <div id="input-space">
+                <form id="form-main">
+                    <input type="color" id="ipt-color">
+                    <select id="ipt-mode" name="mode">
+                        <option value=1 selected>Monochrome</option>
+                        <option value=2 > Monochrome-Dark </option> 
+                        <option value=3 > Monochrome-Light </option> 
+                        <option value=4 > Analogic </option> 
+                        <option value=4 > Complement </option> 
+                        <option value=5 > Analogic-Complement </option> 
+                        <option value=6 > Triad </option> 
+                        <option value=6 > Quad </option>
+                    </select>
+                    <input type="submit" id="btn-submit" value="Get Color Scheme">
+                </form>
             </div>
-            <div id="space-2">
-                <div id="color-2"></div>
-            </div>            
-            <div id="space-3">
-                <div id="color-3"></div>
-            </div>            
-            <div id="space-4">
-                <div id="color-4"></div>
-            </div>            
-            <div id="space-5">
-                <div id="color-5"></div>
+            <div id="color-space">
+                <div id="space-1">
+                </div>
+                <div id="space-2">
+                </div>            
+                <div id="space-3">
+                </div>            
+                <div id="space-4">
+                </div>            
+                <div id="space-5">
+                </div>
             </div>
+            <div id="code-space">    
+                <div id="code-1">#AAD1B6</div>
+                <div id="code-1">#AAD1B6</div>
+                <div id="code-1">#AAD1B6</div>
+                <div id="code-1">#AAD1B6</div>
+                <div id="code-1">#AAD1B6</div> 
+            </div>  
         </div>
-        <div id="code-space">    
-            <div id="code-1">#AAD1B6</div>
-            <div id="code-1">#AAD1B6</div>
-            <div id="code-1">#AAD1B6</div>
-            <div id="code-1">#AAD1B6</div>
-            <div id="code-1">#AAD1B6</div> 
-        </div>  
         <script src="index.js"></script>
     </body>
 </html>

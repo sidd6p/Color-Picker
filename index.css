@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+#main {
+    border: 5px solid royalblue;
+    width: 550px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#input-space {
+    position: relative;
+    width: 550px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+}
+
+#color-space {
+    position: relative;
+    width: 550px;
+    height: 350px;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#space-1, #space-2, #space-3, #space-4, #space-5 {
+    width: 110px;
+    background-color: orange;
+}
+
+#code-space {
+    position: relative;
+    width: 550px;
+    height: 46px;
+    left: 0px;
+    display: flex;
+    justify-content: space-around;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+}
+
+#ipt-color {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    width: 51px;
+    height: 34px;
+    border: none;
+}
+
+#ipt-mode {
+    position: relative;
+    left: 25px;
+    top: 5px;
+    width: 212px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+#btn-submit {
+    position: relative;
+    width: 123px;
+    height: 34px;
+    left: 50px;
+    top: 5px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    }
