@@ -4,16 +4,16 @@
         <title>Color-Picker by SiD</title>
         <link rel="stylesheet" href="index.css">
     </head>
-    <body onload="renderColors('FFA500', 'analogic')">
+    <body>
         <div id="main">
             <div id="input-space">
                 <form id="form-main">
-                    <input type="color" id="ipt-color" name="ipt-color" value="#FFA500">
+                    <input type="color" id="ipt-color" name="ipt-color" value="#0FAFCF">
                     <select id="ipt-mode" name="ipt-mode">
-                        <option value="monochrome" selected>Monochrome</option>
+                        <option value="monochrome">Monochrome</option>
                         <option value="monochrome-dark"> Monochrome-Dark </option> 
                         <option value="monochrome-light"> Monochrome-Light </option> 
-                        <option value="analogic"> Analogic </option> 
+                        <option value="analogic" selected> Analogic </option> 
                         <option value="complement"> Complement </option> 
                         <option value="analogic-complement"> Analogic-Complement </option> 
                         <option value="triad"> Triad </option> 
@@ -23,23 +23,18 @@
                 </form>
             </div>
             <div id="color-space">
-                <div class="space">
-                </div>
-                <div class="space">
-                </div>
-                <div class="space">
-                </div>
-                <div class="space">
-                </div>
-                <div class="space">
-                </div>
+                <div class="space"></div>
+                <div class="space"></div>
+                <div class="space"></div>
+                <div class="space"></div>
+                <div class="space"></div>
             </div>
             <div id="code-space">    
-                <div class="code">#AAD1B6</div>
-                <div class="code">#AAD1B6</div>
-                <div class="code">#AAD1B6</div>
-                <div class="code">#AAD1B6</div>
-                <div class="code">#AAD1B6</div>
+                <div class="code"></div>
+                <div class="code"></div>
+                <div class="code"></div>
+                <div class="code"></div>
+                <div class="code"></div>
             </div>  
         </div>
         <script src="index.js"></script>

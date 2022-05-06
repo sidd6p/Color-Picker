@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "version": "1",
+    "short_name": "Color Picker",
+    "name": "Color Picker by SiD",
+    "description": "Pick the color scheme",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    }
+}

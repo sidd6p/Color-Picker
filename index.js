@@ -3,9 +3,14 @@ const colorEl = document.getElementById("ipt-color");
 const modeEl = document.getElementById("ipt-mode");
 const spaceEls = document.getElementsByClassName("space");
 const codeEls = document.getElementsByClassName("code");
+const mainEl = document.getElementById("main");
+
+
+renderColors('0FAFCF', 'analogic');
 
 inputEl.addEventListener("click", function(event) {
-    event.preventDefault();
+    event.preventDefault();    
+    mainEl.style.borderColor = colorEl.value;
     renderColors(colorEl.value.substr(1), modeEl.value);
 })
 
