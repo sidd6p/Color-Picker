@@ -4,7 +4,7 @@ body {
 }
 
 #main {
-    border: 5px solid royalblue;
+    border: 5px solid rgba(65, 105, 225, 0.634);
     width: 550px;
     margin: auto;
     margin-top: 50px;
@@ -28,11 +28,6 @@ body {
     top: 0px;
     display: flex;
     justify-content: space-around;
-}
-
-#space-1, #space-2, #space-3, #space-4, #space-5 {
-    width: 110px;
-    background-color: orange;
 }
 
 #code-space {
@@ -77,4 +72,12 @@ body {
     border: 1px solid #D1D5DB;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 4px;
-    }
+}
+
+.space {
+    width: 110px;
+}
+
+.code {
+    margin: 10px;
+}
